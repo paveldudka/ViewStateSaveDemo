@@ -4,7 +4,6 @@ import android.content.Context;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.widget.Switch;
 
 public class CustomSwitch extends Switch {
@@ -24,7 +23,6 @@ public class CustomSwitch extends Switch {
     }
 
     public void setCustomState(int customState) {
-        Log.d("pasha", "state: " + customState);
         this.customState = customState;
     }
 
